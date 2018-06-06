@@ -345,7 +345,7 @@ section .subtitle-half h5 {
 .home-overlay-fluid {
     background-color: rgba(41, 41, 41, 0.68);
     width: 100%;
-    padding: 200px 0px 500px 0px;
+    padding: 70px 0px 300px 0px;
     color: #fff;
 }
 
@@ -672,7 +672,7 @@ input:-ms-input-placeholder {
 }
 
 .main_home_content .logo_img {
-    margin-bottom: 40px;
+    margin-bottom: 1rem;
 }
 
 .main_home_content h2 {
