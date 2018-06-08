@@ -11,7 +11,7 @@ html,
 body {
     background-color: #c6c6c6;
     font-size: 15px;
-    color: #565656;
+    color: #110c0c;
     width: 100%;
     padding: 0;
     margin-left: 0;
@@ -31,33 +31,33 @@ section {
 
 section:nth-child(odd) {
     /*background: #000;*/
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    transform: rotate(5deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
     margin-top: -370px;
     box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.4);
 }
 
 section:nth-child(even) {
     /*background: #e90089;*/
-    -webkit-transform: rotate(-5deg);
-    -moz-transform: rotate(-5deg);
-    -o-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4) inset;
     margin-top: -112px;
     box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .chikobiko {
-    transform: rotate(5deg);
+    transform: rotate(3deg);
 }
 
 .bangbang {
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
 }
 
 img {
@@ -122,36 +122,7 @@ img {
     max-width: 100%;
 }
 
-textarea,
-input[type="text"],
-input[type="password"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="date"],
-input[type="month"],
-input[type="time"],
-input[type="week"],
-input[type="number"],
-input[type="email"],
-input[type="url"],
-input[type="search"],
-input[type="tel"],
-input[type="color"],
-.uneditable-input {
-    outline: none;
-}
 
-.form-control {
-    border: 1px solid rgba(0, 0, 0, 0.90);
-    font-size: 16px;
-    height: 45px;
-    background: rgba(0, 0, 0, 0.86);
-    border-radius: 0px;
-}
-
-.form-control:focus {
-    border-color: #000;
-}
 
 h1,
 h2,
@@ -224,7 +195,7 @@ PRE LOADER
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fefefe;
+    background-color:white;
     z-index: 99999;
     height: 100%;
     width: 100%;
@@ -232,12 +203,12 @@ PRE LOADER
 }
 
 .loaded {
-    width: 60px;
-    height: 60px;
+    width: 10rem;
+    height: 10rem;
     position: absolute;
     left: 50%;
     top: 50%;
-    background-image: url(../images/Alternative.gif);
+    background-image: url(../images/g-dribbble.gif);
     background-repeat: no-repeat;
     background-position: center;
     -moz-background-size: cover;
@@ -345,8 +316,8 @@ section .subtitle-half h5 {
 .home-overlay-fluid {
     background-color: rgba(41, 41, 41, 0.68);
     width: 100%;
-    padding: 100px 0px 300px 0px;
-    color: #fff;
+    padding: 5rem 1rem 25rem 1rem;
+    color: rgb(89, 248, 253);
 }
 
 .overlay-img {
@@ -664,6 +635,7 @@ input:-ms-input-placeholder {
 .main_area {
     width: 100%;
     overflow: hidden;
+    background:rgb(120, 244, 253)
 }
 
 .home {
@@ -719,13 +691,13 @@ input:-ms-input-placeholder {
 }
 
 .about_overlay {
-    background: rgba(255, 255, 255, 0.50);
+    background: rgba(31, 238, 238, 0.5);
     width: 100%;
     padding: 8rem 1rem 15rem 1rem;
 }
 
 .head_title h2 {
-    color: #70c92f;
+    color: #68f5d1;
     font-size: 38px;
     font-family: 'coolveticaregular';
 }
@@ -778,9 +750,9 @@ input:-ms-input-placeholder {
 }
 
 .features_overlay {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 5rem 1rem 15rem 1rem;
-    color: #fff;
+   
+   padding: 5rem 1rem 15rem 1rem;
+   color: #fff;
 }
 
 .main_features {
@@ -824,7 +796,9 @@ input:-ms-input-placeholder {
 
 .tinyforest_overlay {
     background: url(../images/overlay.png) repeat-y 100% 100%;
-    color: #fff;
+    color: rgb(18, 18, 19);
+    font-size: 2 rem;
+    font-weight: 400;
     padding: 190px 100px 300px 100px;
     width: 100%;
     background-size: contain;
@@ -1222,7 +1196,7 @@ input:-ms-input-placeholder {
     }
     /* footer section */
     .footer {
-        background: #333333;
+        background: rgba(0,225,255,0.438);
         z-index: 100;
         position: relative;
     }
