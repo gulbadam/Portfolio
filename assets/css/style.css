@@ -667,7 +667,7 @@ input:-ms-input-placeholder {
 }
 
 .home {
-    background: url(../images/homebg.jpg) no-repeat top center;
+    background: url(../images/head-1231873_1920.jpg) no-repeat top center;
     background-size: cover;
 }
 
@@ -713,7 +713,7 @@ input:-ms-input-placeholder {
 }
 
 .about {
-    background: url(../images/aboutbg.jpg) no-repeat 100% 100%;
+    background: url(../images/water-1330252_960_720.jpg) no-repeat 100% 100%;
     background-size: cover;
     position: relative;
 }
@@ -721,7 +721,7 @@ input:-ms-input-placeholder {
 .about_overlay {
     background: rgba(255, 255, 255, 0.50);
     width: 100%;
-    padding: 130px 100px 321px 100px;
+    padding: 100px 100px 15rem 100px;
 }
 
 .head_title h2 {
@@ -773,13 +773,13 @@ input:-ms-input-placeholder {
 /*features section */
 
 .features {
-    background: url(../images/featuresbg.jpg) no-repeat top center;
+    background: url(../images/coding-1841550_1920.jpg) no-repeat top center;
     background-size: cover;
 }
 
 .features_overlay {
     background: rgba(0, 0, 0, 0.6);
-    padding: 100px 100px 300px 100px;
+    padding: 5rem 1rem 15rem 1rem;
     color: #fff;
 }
 
@@ -908,7 +908,7 @@ input:-ms-input-placeholder {
     }
     /* pricing Section */
     .pricing {
-        background: url(../images/pricingbg.jpg) no-repeat top center;
+        background: url(../images/message-in-a-bottle-3437294_1920.jpg) no-repeat top center;
         background-size: cover;
     }
     .single_pricing_text {
@@ -1121,10 +1121,10 @@ input:-ms-input-placeholder {
     }
     .main_contact {}
     .contact_content {
+        text-align: center;
         max-width: 80%;
         margin: 0 auto;
         overflow: hidden;
-        padding-top: 80px;
     }
     .contact_message {
         margin-top: 30px;
@@ -1133,6 +1133,7 @@ input:-ms-input-placeholder {
         margin-top: -20px;
     }
     .contact_socail_bookmark_area {
+        
         padding-left: 20px;
     }
     .single_contact_phone {
