@@ -11,12 +11,13 @@ html,
 body {
     background-color: #c6c6c6;
     font-size: 15px;
-    color: #110c0c;
+    color: white;
     width: 100%;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'open_sanslight';
+    font-family: 'Unica One';
+    
     font-weight: 300;
 }
 
@@ -112,6 +113,8 @@ a span {
 
 p {
     margin: 0 0 15px;
+    color: white;
+    font-weight: 700;
 }
 
 .clear {
@@ -127,14 +130,20 @@ img {
 h1,
 h2,
 h3 {
-    font-family: 'big_johnregular';
+    font-family: 'Paytone One';
+    color: #bfbbbb;
+    
+        -webkit-text-stroke: 1px black;
+        color: white;
+        text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
     font-weight: 300;
     margin: 0;
 }
 
 h4,
 h5 {
-    /*font-family: 'roboto', sans-serif;*/
+    font-family: 'roboto', sans-serif;
     font-weight: 300;
     margin: 0;
     line-height: 2rem;
@@ -177,7 +186,7 @@ h6 {
 }
 
 p {
-    line-height: 1.5rem;
+    /* line-height: 1.5rem; */
     font-size: 1.1rem;
 }
 
@@ -383,6 +392,7 @@ Button
     height: 50px;
     text-align: center;
     color: #fff;
+    box-shadow: 5px 10px 8px #888888;
     font-style: normal;
     letter-spacing: 1px;
     margin: 0;
@@ -390,6 +400,7 @@ Button
     font-weight: 300;
     border-radius: 0;
     margin-top: 30px;
+    
 }
 
 .btn:hover {
@@ -719,13 +730,15 @@ input:-ms-input-placeholder {
 }
 
 .about_top_content p {
-    color: #999999;
+    color: #222222;
     font-size: 20px;
     max-width: 55%;
     margin: 40px auto;
 }
 
-.about_bottom_content {}
+.about_bottom_content {
+    padding: 5rem;
+}
 
 .about_bottom_content h4 {
     font-size: 24px;
@@ -739,7 +752,8 @@ input:-ms-input-placeholder {
 }
 
 .about_bottom_content a img {
-    width: 4rem;
+    width: 5rem;
+    margin-left: 1rem;
 }
 
 /*features section */
@@ -827,7 +841,7 @@ input:-ms-input-placeholder {
         max-width: 80%;
     }
     .date {
-        color: #000000;
+        color: #cecbcb;
         font-size: 12px;
         font-family: 'open_sansbold';
     }
