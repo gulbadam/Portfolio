@@ -854,6 +854,18 @@ input:-ms-input-placeholder {
         background: url(../images/coolautumnover.png) repeat-y 100% 100%;
         background-size: contain;
     }
+    .colorgame {
+        background: url(../images/colorgame.png) no-repeat top center;
+        background-size: cover;
+    }
+
+    .colorgame_overlay {
+        background: url(../images/overlay.png) repeat-y 100% 100%;
+        color: #fff;
+        padding: 190px 100px 300px 100px;
+        width: 100%;
+        background-size: contain;
+    }
     .blockquote-reverse,
     blockquote.pull-right {
         padding-right: 15px;
@@ -871,6 +883,16 @@ input:-ms-input-placeholder {
     .gem_overlay {
         background: url(../images/coolautumnover.png) repeat-y 100% 100%;
         background-size: contain;
+    }
+    .mope {
+background: url(../images/mope.png) no-repeat top center;
+background-size: cover;
+
+    }
+    .mope_overlay {
+background: url(../images/coolautumnover.png) repeat-y 100% 100%;
+background-size: contain;
+
     }
     .blockquote-reverse,
     blockquote.pull-right {
